@@ -10,6 +10,7 @@ import heroImg03 from "../assets/images/hero-img03.png";
 import icon01 from "../assets/images/icon01.png";
 import icon02 from "../assets/images/icon02.png";
 import icon03 from "../assets/images/icon03.png";
+import ServiceList from "../components/services/servicelist";
 
 const Home = () => {
   return (
@@ -165,6 +166,7 @@ const Home = () => {
               World-class care for everone. Our health System offers unmatched, expert health care.
             </p>
           </div>
+          <ServiceList />
         </div>
       </section>
       {/* ========= Servivers section end ========== */}
