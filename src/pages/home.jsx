@@ -11,6 +11,7 @@ import icon01 from "../assets/images/icon01.png";
 import icon02 from "../assets/images/icon02.png";
 import icon03 from "../assets/images/icon03.png";
 import ServiceList from "../components/services/servicelist";
+import featureImg from "../assets/images/feature-img.png";
 
 const Home = () => {
   return (
@@ -157,19 +158,59 @@ const Home = () => {
 
       <About />
 
-      {/* ========= Servivers section start ========== */}
+      {/* ========= Services section start ========== */}
       <section>
         <div className="container">
           <div className="xl:w-[470px] mx-auto">
             <h2 className="heading text-center"> Our Medical Services</h2>
             <p className="text__para text-center">
-              World-class care for everone. Our health System offers unmatched, expert health care.
+              World-class care for everone. Our health System offers unmatched,
+              expert health care.
             </p>
           </div>
           <ServiceList />
         </div>
       </section>
-      {/* ========= Servivers section end ========== */}
+      {/* ========= Services section end ========== */}
+
+      {/* =============== feature Section =========== */}
+      <section>
+        <div className="container">
+          <div className="flex items-center justify-between flex-col  lg:flex-row">
+            {/* =========== features content =========== */}
+
+            <div className="xl:w-[670px]">
+              <h2 className="heading">
+                Get virtual treatment <br /> anytime
+              </h2>
+              <ul className="pl-4">
+                <li className="text__para">
+                  1. Schedule the Appointment directly
+                </li>
+                <li className="text__para">
+                  2. Search for your physician here, and contact their office.
+                </li>
+                <li className="text__para">
+                  3. View our physicians who are accepting new patients, use the
+                  online scheduling tool to select an Appointment time.
+                </li>
+              </ul>
+              <Link to="/">
+                <button className="btn">Learn More</button>
+              </Link>
+            </div>
+
+            {/* =========== features content end =========== */}
+            {/* =========== features img =========== */}
+            <div className="relative z-10 xl:w-[770] flex justify-end mt-[50px] lg:mt-0">
+              <img src={featureImg} className="w-3/4" alt="" />
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* =============== feature Section end =========== */}
     </>
   );
 };
