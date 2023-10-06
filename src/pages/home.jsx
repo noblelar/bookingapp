@@ -207,7 +207,6 @@ const Home = () => {
             <div className="relative z-10 xl:w-[770] flex justify-end mt-[50px] lg:mt-0">
               <img src={featureImg} className="w-3/4" alt="" />
               <div className="w-[150px] lg:w-[248px] bg-white absolute bottom-[50px] left-0 md:bottom-[100px] md:left-5 z-20 p-2 pb-3 lg:pt-4 lg:pb-[26px] rounded-[10px] ">
-
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-[6px] lg:gap-3">
                     <p className="text-[10px] leading-[10px] lg:text-[14px] lg:leading-5 text-textColor font-[400]">
@@ -228,11 +227,10 @@ const Home = () => {
 
                 <div className="flex item-center gap-[6px] lg:gap-[10px] mt-2 lg:mt-[18px]">
                   <img src={avatarIcon} alt="" />
-                  <h4 className="text-[10px] leading-3 lg:text-[16px] lg:leading-[22px] font-[700] text-headingColor" >
+                  <h4 className="text-[10px] leading-3 lg:text-[16px] lg:leading-[22px] font-[700] text-headingColor">
                     Wayne Collins
                   </h4>
                 </div>
-
               </div>
             </div>
           </div>
@@ -240,6 +238,19 @@ const Home = () => {
       </section>
 
       {/* =============== feature Section end =========== */}
+      {/* =============== Our Great Doctors =========== */}
+      <section>
+        <div className="container">
+          <div className="xl:w-[470px] mx-auto">
+            <h2 className="heading text-center"> Our Great Doctors </h2>
+            <p className="text__para text-center">
+              World-class care for everone. Our health System offers unmatched,
+              expert health care.
+            </p>
+          </div>
+        </div>
+      </section>
+      {/* =============== Our Great Doctors End =========== */}
     </>
   );
 };
