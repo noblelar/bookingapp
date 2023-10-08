@@ -3,18 +3,18 @@
 import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
 import Routers from "../routes/routers";
-import { Router } from "react-router-dom";
+// import { Router } from "react-router-dom";
 
 const Layout = () => {
   return (
     <>
-      <Router basename="/bookingapp" >
       <Header />
+      {/* <Router basename="/bookingapp" > */}
         <main>
           <Routers />
         </main>
+      {/* </Router> */}
       <Footer />
-      </Router>
     </>
   );
 };
