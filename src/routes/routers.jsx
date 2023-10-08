@@ -9,16 +9,17 @@ import DoctorsDetails from '../pages/doctors/doctorsdetails';
 
 import { Routes, Route } from 'react-router-dom';
 const Routers = () => {
+  const githubRepo = '/bookingapp';
   return (
     <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/home' element={<Home />} />
-      <Route path='/doctors' element={<Doctors />} />
-      <Route path='/doctors/:id' element={<DoctorsDetails />} />
-      <Route path='/login' element={<Login />} />
-      <Route path='/register' element={<Signup />} />
-      <Route path='/contact' element={<Contact />} />
-      <Route path='/services' element={<Services />} />
+      <Route path={githubRepo+'/'} element={<Home />} />
+      <Route path={githubRepo+'/home'} element={<Home />} />
+      <Route path={githubRepo+'/doctors'} element={<Doctors />} />
+      <Route path={githubRepo+'/doctors/:id'} element={<DoctorsDetails />} />
+      <Route path={githubRepo+'/login'} element={<Login />} />
+      <Route path={githubRepo+'/register'} element={<Signup />} />
+      <Route path={githubRepo+'/contact'} element={<Contact />} />
+      <Route path={githubRepo+'/services'} element={<Services />} />
     </Routes>
   )
 }
