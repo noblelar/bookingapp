@@ -8,13 +8,13 @@ import Routers from "../routes/routers";
 const Layout = () => {
   return (
     <>
-      {/* <Router> */}
+      <Router>
       <Header />
         <main>
           <Routers />
         </main>
       <Footer />
-      {/* </Router> */}
+      </Router>
     </>
   );
 };
