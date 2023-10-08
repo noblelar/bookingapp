@@ -8,13 +8,13 @@ import { Router } from "react-router-dom";
 const Layout = () => {
   return (
     <>
+      <Header />
       <Router>
-        <Header />
         <main>
           <Routers />
         </main>
-        <Footer />
       </Router>
+      <Footer />
     </>
   );
 };
