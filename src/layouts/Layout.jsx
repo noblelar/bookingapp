@@ -3,17 +3,17 @@
 import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
 import Routers from "../routes/routers";
-import { Router } from "react-router-dom";
+// import { Router } from "react-router-dom";
 
 const Layout = () => {
   return (
     <>
       <Header />
-      <Router>
+      {/* <Router> */}
         <main>
           <Routers />
         </main>
-      </Router>
+      {/* </Router> */}
       <Footer />
     </>
   );
