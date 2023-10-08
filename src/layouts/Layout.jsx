@@ -3,12 +3,12 @@
 import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
 import Routers from "../routes/routers";
-// import { Router } from "react-router-dom";
+import { Router } from "react-router-dom";
 
 const Layout = () => {
   return (
     <>
-      <Router>
+      <Router basename="/bookingapp" >
       <Header />
         <main>
           <Routers />
