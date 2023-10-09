@@ -7,7 +7,7 @@ import Contact from '../pages/contact';
 import Doctors from '../pages/doctors/doctors';
 import DoctorsDetails from '../pages/doctors/doctorsdetails';
 
-import { Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 const Routers = () => {
   return (
     <Routes>
