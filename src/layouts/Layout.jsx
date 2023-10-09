@@ -9,11 +9,9 @@ const Layout = () => {
   return (
     <>
       <Header />
-      {/* <Router basename="/bookingapp" > */}
         <main>
           <Routers />
         </main>
-      {/* </Router> */}
       <Footer />
     </>
   );
